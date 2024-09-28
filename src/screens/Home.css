@@ -1,0 +1,74 @@
+
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 87vh;
+    background-color: #f4f4f9;
+  }
+  .home-content {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  .home-description {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%; 
+  }
+  
+  .home-description h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .home-description p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .home-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+
+  .button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .view-registers {
+    background-color: #374355;
+    color: #fff;
+    border: none;
+  }
+  
+  .view-registers:hover {
+    background-color:  rgba(55, 67, 85, 0.9);
+  }
+  
+  .register {
+    background-color: transparent;
+    color: #374355;
+    border: 1px solid #374355;
+  }
+  
+  .register:hover {
+    background-color: rgba(153, 153, 153, 0.2);
+  }
+  
